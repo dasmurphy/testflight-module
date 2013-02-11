@@ -14,7 +14,6 @@ teams of testers and developers.
 * <a href="#features">Features</a>
 * <a href="#supported">Supported/Tested Platforms</a>
 * <a href="#usage">Basic Usage</a>
-* <a href="#todo">ToDo</a>
 * <a href="#help">How To Help</a>
 * <a href="#license">License</a>
 * <a href="#license">Changelog</a>
@@ -105,12 +104,6 @@ tabGroup.open();
 ~~~
 
 - - - 
-
-### <a name="todo">ToDo</a>
-
-* Need to write more examples to better show off features.
-
-- - -
 
 ### <a name="help">How To Help</a>
 1. Go to github and click the “fork” button.
