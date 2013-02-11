@@ -53,9 +53,8 @@ Titanium.UI.setBackgroundColor('#eee');
 var testflight = require('ti.testflight');
 Ti.API.info("module is => " + testflight);
 
-
 // Set the team token here (REQUIRED)
-testflight.token('YourTeamTokenHere');
+testflight.takeOff('YourAppTokenHere');
 
 var tabGroup = Titanium.UI.createTabGroup();
 
@@ -80,18 +79,18 @@ var table = Ti.UI.createTableView({ data: data });
 
 table.addEventListener('click', function(_event) {
 	// Set a checkpoint up here
-	testflight.checkpoint('Checkpoint' + _event.rowData.uid);
+	testflight.passCheckPoint('Checkpoint' + _event.rowData.uid);
 
 	var newwin = Ti.UI.createWindow({ title: _event.row.title });
-	
+
 	var label = Ti.UI.createLabel({ text: 'Checkpoint ' + _event.rowData.uid, textAlign: 'center' });
 	var btn = Ti.UI.createButton({ title: 'Feedback' });
-	
+
 	btn.addEventListener('click', function() {
 		// Open the feedback window
-		testflight.feedback();
+		testflight.openFeedbackView();
 	});
-	
+
 	newwin.add(label);
 	newwin.rightNavButton = btn;
 	tab1.open(newwin, { animated: true });
