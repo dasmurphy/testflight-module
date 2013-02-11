@@ -53,8 +53,8 @@ Titanium.UI.setBackgroundColor('#eee');
 var testflight = require('ti.testflight');
 Ti.API.info("module is => " + testflight);
 
-// Set the team token here (REQUIRED)
-testflight.takeOff('YourAppTokenHere');
+// Set the app token here (REQUIRED)
+testflight.takeOff('YourAppTokenHere',true); // for demo code
 
 var tabGroup = Titanium.UI.createTabGroup();
 
