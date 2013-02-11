@@ -16,11 +16,11 @@ The testflight variable is a reference to the Module object.
 
 ## Reference
 
-### testflight.takeOff(teamToken[,true])
+### testflight.takeOff(appToken[,true])
 
 #### Arguments
 
-Takes one argument, a string which is the Team token that will be used for your builds (the team token is NOT the API token)
+Takes one argument, a string which is the App token that will be used for your builds (the app token is NOT the API token)
 The second argument is a boolean. If added then the DeviceIdentifier is set for
 TestFlight or not. Use this only during tests and not in production environment.
 
@@ -62,7 +62,7 @@ Returns the current TestFlight SDK Version which is used in the module
 
       var testflight = require('ti.testflight');
    
-      testflight.takeOff('YourTeamTokenHere');
+      testflight.takeOff('YourAppTokenHere');
    
       testflight.passCheckpoint('SomeCheckpoint');
    
@@ -83,4 +83,4 @@ Twitter: mattapperson
 
 ## License
 
-Apache Public License 2.0
+FreeBSD License

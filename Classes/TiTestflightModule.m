@@ -17,7 +17,7 @@
 // this is generated for your module, please do not change it
 -(id)moduleGUID
 {
-	return @"4946b1e8-362c-46a8-a6fc-bbe40e892ecc";
+	return @"397c89fb-9d51-4c88-becd-9710a1bc7e97";
 }
 
 // this is generated for your module, please do not change it
@@ -134,7 +134,7 @@
 
 -(id)sdkVersion:(id)args
 {
-    ENSURE_UI_THREAD_0_ARGS;
+    //ENSURE_UI_THREAD_0_ARGS;
 
     NSString *value = TESTFLIGHT_SDK_VERSION;
     return value;

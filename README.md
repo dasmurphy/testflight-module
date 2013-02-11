@@ -131,7 +131,7 @@ See LICENSE file.
 
 ### <a name="changelog">Changelog</a>
 
-v1.0
+v1.0 - 2012/4/30
 * used TestFlight 1.0
 * renamed most functions to the function names of the TestFlight SDK
 * added sdkVersion
@@ -139,11 +139,15 @@ v1.0
 * fixed some small things like parameters
 * updated documentation
 
-v1.1
+v1.1 - 2012/5/22
 * removed setDeviceIdentifier
 * removed remoteLog
 * added second parameter to takeOff for udid function
 * added log function with category and value parameter
+
+v1.2 - 2013/2/11
+* updated Testflight SDK to v1.2
+* fixed small compiling error in sdkVersion
 
 - - -
 
