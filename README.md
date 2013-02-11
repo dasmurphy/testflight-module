@@ -42,6 +42,7 @@ Titanium Mobile SDK's from the Continuous Integration server (aka CI Builds).
 |:---------|:----------|
 |[1.0](https://github.com/dasmurphy/testflight-module/blob/master/releases/ti.testflight-iphone-1.0.zip?raw=true)|1.8.0+|
 |[1.1](https://github.com/dasmurphy/testflight-module/blob/master/releases/ti.testflight-iphone-1.1.zip?raw=true)|1.8.0+|
+|[1.2](https://github.com/dasmurphy/testflight-module/blob/master/releases/ti.testflight-iphone-1.2.zip?raw=true)|2.1.4+|
 
 - - - 
 
