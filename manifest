@@ -1,0 +1,16 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.1
+description: A module to implement the TestFlight SDK
+author: Torsten Stelling
+license: See LICENSE file
+copyright: Copyright (c) 2012 Torsten Stelling
+
+# these should not be edited
+name: testflight
+moduleid: ti.testflight
+guid: 397c89fb-9d51-4c88-becd-9710a1bc7e97
+platform: iphone
+minsdk: 1.8.0.1
