@@ -2,9 +2,10 @@
 
 ### Appcelerator Titanium TestFlight Module for iOS 
 
-This is a TestFlight module for iOS originally developed by Rick Blalock and Matt Apperson. Also needing to be thanked is
-the core TestFlight development team who assisted in the making of this module. Without their help this wouldn't have been
-possible.
+This is a TestFlight module for iOS originally developed by Torsten Stelling and formally
+developed by Rick Blalock and Matt Apperson. Also needing to be thanked is the core
+TestFlight development team who assisted in the making of this module. Without their help
+this wouldn't have been possible.
 
 [TestFlight](http://www.testflightapp.com/) makes it easy to upload and distribute iOS builds over-the-air to your 
 teams of testers and developers.
@@ -178,15 +179,20 @@ v1.2 - 2013/2/11
 
 ### <a name="history">History of the module</a>
 
-The original module was created in 2011 by Damage Studios, but not much updated. I started to update it with my own code and changed the function calls to names i was used to from the co.saiten.ti.testflight module. At last i changed the GUID to my own.
+The original module was created in 2011 by Damage Studios, but not much updated.
+I started to update it with my own code and changed the function calls to names i was
+used to from the co.saiten.ti.testflight module. At last i changed the GUID to my own.
 
-Since i saw that the module from Damage Studios is removed from github.com, i wanted to share my works with you here. I try to update this module as often as TestFlight updates it's SDK.
+Since i saw that the module from Damage Studios is removed from github.com, i wanted to
+share my works with you here. I try to update this module as often as TestFlight updates
+it's SDK.
 
 - - -
 
 ### <a name="copyright">Copyright</a>
 
 Copyright (c) 2011 by Damage Studios LLC. All Rights Reserved.
+
 Copyright (c) 2012-2013 by Torsten Stelling. All Rights Reserved.
 
 Appcelerator is a registered trademark of Appcelerator, Inc. Appcelerator Titanium is a trademark of Appcelerator, Inc.
