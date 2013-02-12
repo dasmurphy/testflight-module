@@ -2,13 +2,15 @@
 
 ### Appcelerator Titanium TestFlight Module for iOS 
 
-This is a TestFlight module for iOS originally developed by Torsten Stelling and formally
+This is a TestFlight module for iOS actively developed by Torsten Stelling and formally
 developed by Rick Blalock and Matt Apperson. Also needing to be thanked is the core
 TestFlight development team who assisted in the making of this module. Without their help
 this wouldn't have been possible.
 
 [TestFlight](http://www.testflightapp.com/) makes it easy to upload and distribute iOS builds over-the-air to your 
 teams of testers and developers.
+
+The original repository url is [https://github.com/dasmurphy/testflight-module](https://github.com/dasmurphy/testflight-module).
 
 - - -
 
@@ -54,12 +56,12 @@ Titanium Mobile SDK's from the Continuous Integration server (aka CI Builds).
 |TestFlight Module Version|TestFlight SDK Version|Titanium Mobile SDK Version|
 |:---------|:----------|:----------|
 |1.0|1.0|1.8.0+|
-|1.1|1.1|1.8.0+|
+|1.1|1.0|1.8.0+|
 |1.2|1.2|2.1.4+|
 
 - - - 
 
-### <a name="usage">Basic Usage:</a>
+### <a name="usage">Basic Usage</a>
 
 ```javascript
 Titanium.UI.setBackgroundColor('#eee');
