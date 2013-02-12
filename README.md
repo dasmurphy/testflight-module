@@ -133,7 +133,8 @@ Replace the functions with new function names.
 |customInfo|addCustomEnvironmentInformation|
 |remoteLog|log|
 
-`log` uses 2 parameters and you need to put `"INFO",` in front of the first parameter.
+`log` uses 2 parameters and you need to put `"INFO",` in front of the first parameter to
+replicate the old behaviour.
 
 - - - 
 
