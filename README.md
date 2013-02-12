@@ -40,9 +40,9 @@ teams of testers and developers.
 
 All binary releases are included also in this module. See the [releases](https://github.com/dasmurphy/testflight-module/tree/master/releases) folder.
 
-[ti.testflight-iphone-1.0.zip](https://github.com/dasmurphy/testflight-module/blob/master/releases/ti.testflight-iphone-1.0.zip?raw=true)
-[ti.testflight-iphone-1.1.zip](https://github.com/dasmurphy/testflight-module/blob/master/releases/ti.testflight-iphone-1.1.zip?raw=true)
-[ti.testflight-iphone-1.2.zip](https://github.com/dasmurphy/testflight-module/blob/master/releases/ti.testflight-iphone-1.2.zip?raw=true)
+* [ti.testflight-iphone-1.0.zip](https://github.com/dasmurphy/testflight-module/blob/master/releases/ti.testflight-iphone-1.0.zip?raw=true)
+* [ti.testflight-iphone-1.1.zip](https://github.com/dasmurphy/testflight-module/blob/master/releases/ti.testflight-iphone-1.1.zip?raw=true)
+* [ti.testflight-iphone-1.2.zip](https://github.com/dasmurphy/testflight-module/blob/master/releases/ti.testflight-iphone-1.2.zip?raw=true)
 
 - - -
 
@@ -60,7 +60,8 @@ Titanium Mobile SDK's from the Continuous Integration server (aka CI Builds).
 - - - 
 
 ### <a name="usage">Basic Usage:</a>
-~~~
+
+```javascript
 Titanium.UI.setBackgroundColor('#eee');
 
 // Pull in the Module
@@ -114,7 +115,7 @@ win.add(table);
 
 tabGroup.addTab(tab1);  
 tabGroup.open();
-~~~
+```
 
 - - - 
 
