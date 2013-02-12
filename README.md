@@ -129,12 +129,9 @@ Replace the functions with new function names.
 |checkpoint|passCheckPoint|
 |feedback|openFeedbackView|
 |customInfo|addCustomEnvironmentInformation|
+|remoteLog|log|
 
-There are also new functions included.
-
-* sdkVersion
-* log
-* submitFeedback
+`log` uses 2 parameters and you need to put `"INFO",` in front of the first parameter.
 
 - - - 
 
