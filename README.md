@@ -51,11 +51,11 @@ All binary releases are included also in this module. See the [releases](https:/
 This module is only tested against the **latest** Titanium Mobile SDK's. It is not, nor will it ever be tested against the
 Titanium Mobile SDK's from the Continuous Integration server (aka CI Builds).
 
-|TestFlight Module Version|Titanium Mobile SDK Version
-|:---------|:----------|
-|[1.0](https://github.com/dasmurphy/testflight-module/blob/master/releases/ti.testflight-iphone-1.0.zip?raw=true)|1.8.0+|
-|[1.1](https://github.com/dasmurphy/testflight-module/blob/master/releases/ti.testflight-iphone-1.1.zip?raw=true)|1.8.0+|
-|[1.2](https://github.com/dasmurphy/testflight-module/blob/master/releases/ti.testflight-iphone-1.2.zip?raw=true)|2.1.4+|
+|TestFlight Module Version|TestFlight SDK Version|Titanium Mobile SDK Version|
+|:---------|:----------|:----------|
+|1.0|1.0|1.8.0+|
+|1.1|1.1|1.8.0+|
+|1.2|1.2|2.1.4+|
 
 - - - 
 
