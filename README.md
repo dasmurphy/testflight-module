@@ -122,7 +122,7 @@ tabGroup.open();
 
 Replace the functions with new function names.
 
-|old name|new name|
+|old function|new function|
 |:---------|:----------|
 |token|takeOff|
 |checkpoint|passCheckPoint|
