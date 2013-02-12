@@ -12,11 +12,14 @@ teams of testers and developers.
 - - -
 
 * <a href="#features">Features</a>
+* <a href="#download">Downloads</a>
 * <a href="#supported">Supported/Tested Platforms</a>
 * <a href="#usage">Basic Usage</a>
-* <a href="#help">How To Help</a>
+* <a href="#update">How To Update from DamageStudios module</a>
+* <a href="#help">How to Help</a>
 * <a href="#license">License</a>
-* <a href="#license">Changelog</a>
+* <a href="#changelog">Changelog</a>
+* <a href="#history">History of the module</a>
 * <a href="#copyright">Copyright</a>
 
 - - -
@@ -29,6 +32,16 @@ teams of testers and developers.
 * Crash Reports - Reported in realtime, with environment snapshots and full session activity.
 * Checkpoints - Place checkpoints throughout your app to see how far testers are getting, confirm which areas are popular and reveal ones that need more testing.
 * In-App Updates - Prompt testers to install the latest version of your app. This is the easiest way for your testers to take advantage of installing on the fly.
+
+- - -
+
+### <a name="download">Downloads</a>
+
+All binary releases are included also in this module. See the [releases](https://github.com/dasmurphy/testflight-module/tree/master/releases) folder.
+
+[ti.testflight-iphone-1.0.zip](https://github.com/dasmurphy/testflight-module/blob/master/releases/ti.testflight-iphone-1.0.zip?raw=true)
+[ti.testflight-iphone-1.1.zip](https://github.com/dasmurphy/testflight-module/blob/master/releases/ti.testflight-iphone-1.1.zip?raw=true)
+[ti.testflight-iphone-1.2.zip](https://github.com/dasmurphy/testflight-module/blob/master/releases/ti.testflight-iphone-1.2.zip?raw=true)
 
 - - -
 
@@ -104,7 +117,26 @@ tabGroup.open();
 
 - - - 
 
-### <a name="help">How To Help</a>
+### <a name="update">How to Update from DamageStudios module</a>
+
+Replace the functions with new function names.
+
+|old name|new name|
+|:---------|:----------|
+|token|takeOff|
+|checkpoint|passCheckPoint|
+|feedback|openFeedbackView|
+|customInfo|addCustomEnvironmentInformation|
+
+There are also new functions included.
+
+* sdkVersion
+* log
+* submitFeedback
+
+- - - 
+
+### <a name="help">How to Help</a>
 1. Go to github and click the “fork” button.
 1. git clone git@github.com:dasmurphy/testflight-module.git
 1. cd testflight-module
@@ -118,14 +150,14 @@ tabGroup.open();
 
 ### <a name="license">License</a>
 
-See LICENSE file.
+See [LICENSE](https://github.com/dasmurphy/testflight-module/blob/master/LICENSE) file.
 
 - - -
 
 ### <a name="changelog">Changelog</a>
 
 v1.0 - 2012/4/30
-* used TestFlight 1.0
+* uses TestFlight 1.0
 * renamed most functions to the function names of the TestFlight SDK
 * added sdkVersion
 * added setDeviceIdentifier as independent call
@@ -144,8 +176,17 @@ v1.2 - 2013/2/11
 
 - - -
 
+### <a name="history">History of the module</a>
+
+The original module was created in 2011 by Damage Studios, but not much updated. I started to update it with my own code and changed the function calls to names i was used to from the co.saiten.ti.testflight module. At last i changed the GUID to my own.
+
+Since i saw that the module from Damage Studios is removed from github.com, i wanted to share my works with you here. I try to update this module as often as TestFlight updates it's SDK.
+
+- - -
+
 ### <a name="copyright">Copyright</a>
 
+Copyright (c) 2011 by Damage Studios LLC. All Rights Reserved.
 Copyright (c) 2012-2013 by Torsten Stelling. All Rights Reserved.
 
 Appcelerator is a registered trademark of Appcelerator, Inc. Appcelerator Titanium is a trademark of Appcelerator, Inc.
