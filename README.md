@@ -180,13 +180,13 @@ v1.2 - 2013/2/11
 
 ### <a name="history">History of the module</a>
 
-The original module was created in 2011 by Damage Studios, but not much updated.
-I started to update it with my own code and changed the function calls to names i was
-used to from the co.saiten.ti.testflight module. At last i changed the GUID to my own.
+The [original module](https://github.com/fusion94/testflight-module) was created in 2011
+by Damage Studios. I started to update it with my own code and changed the function calls
+to names i was used to from the co.saiten.ti.testflight module. At last i changed the
+GUID to my own.
 
-Since i saw that the module from Damage Studios is removed from github.com, i wanted to
-share my works with you here. I try to update this module as often as TestFlight updates
-it's SDK.
+Since i changed really much in here, i wanted to share my works with you here. I try to
+update this module as often as TestFlight updates it's SDK.
 
 - - -
 
