@@ -18,6 +18,7 @@ The original repository url is [https://github.com/dasmurphy/testflight-module](
 * <a href="#download">Downloads</a>
 * <a href="#supported">Supported/Tested Platforms</a>
 * <a href="#usage">Basic Usage</a>
+* <a href="#faq">FAQ</a>
 * <a href="#update">How To Update from DamageStudios module</a>
 * <a href="#help">How to Help</a>
 * <a href="#license">License</a>
@@ -45,6 +46,7 @@ All binary releases are included also in this module. See the [releases](https:/
 * [ti.testflight-iphone-1.0.zip](https://github.com/dasmurphy/testflight-module/blob/master/releases/ti.testflight-iphone-1.0.zip?raw=true)
 * [ti.testflight-iphone-1.1.zip](https://github.com/dasmurphy/testflight-module/blob/master/releases/ti.testflight-iphone-1.1.zip?raw=true)
 * [ti.testflight-iphone-1.2.zip](https://github.com/dasmurphy/testflight-module/blob/master/releases/ti.testflight-iphone-1.2.zip?raw=true)
+* [ti.testflight-iphone-2.0.zip](https://github.com/dasmurphy/testflight-module/blob/master/releases/ti.testflight-iphone-2.0.zip?raw=true)
 
 - - -
 
@@ -58,6 +60,7 @@ Titanium Mobile SDK's from the Continuous Integration server (aka CI Builds).
 |1.0|1.0|1.8.0+|
 |1.1|1.0|1.8.0+|
 |1.2|1.2|2.1.4+|
+|2.0|2.0|2.1.4+|
 
 - - - 
 
@@ -104,8 +107,8 @@ table.addEventListener('click', function(_event) {
 	var btn = Ti.UI.createButton({ title: 'Feedback' });
 
 	btn.addEventListener('click', function() {
-		// Open the feedback window
-		testflight.openFeedbackView();
+		// Submit some feedback
+		testflight.submitFeedback('Text from your own custom form');
 	});
 
 	newwin.add(label);
@@ -118,6 +121,16 @@ win.add(table);
 tabGroup.addTab(tab1);  
 tabGroup.open();
 ```
+
+- - - 
+
+### <a name="faq">FAQ</a>
+
+**Q:** I see a warning dialog, that my App Token was not detected, but the library is correct implemented. Is this normal?
+
+**A:** Yes, when you see this dialog, please click on **Ignore and Continue**.
+
+![ErrorMessage](https://raw.github.com/dasmurphy/testflight-module/master/documentation/ErrorMessage.png)
 
 - - - 
 
@@ -175,6 +188,11 @@ v1.1 - 2012/5/22
 v1.2 - 2013/2/11
 * updated Testflight SDK to v1.2
 * fixed small compiling error in sdkVersion
+
+v2.0 - 2013/8/30
+* updated Testflight SDK to v2.0
+* remove SubmitFeedbackView, since it is not existent any more
+* added first faq item
 
 - - -
 

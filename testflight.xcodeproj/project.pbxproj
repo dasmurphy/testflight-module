@@ -22,6 +22,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		0DB933C217D0B5A2009DA64E /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DB933C117D0B5A2009DA64E /* libz.dylib */; };
 		24DD6CF91134B3F500162E58 /* TiTestflightModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DD6CF71134B3F500162E58 /* TiTestflightModule.h */; };
 		24DD6CFA1134B3F500162E58 /* TiTestflightModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* TiTestflightModule.m */; };
 		24DE9E1111C5FE74003F90F6 /* TiTestflightModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* TiTestflightModuleAssets.h */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0DB933C117D0B5A2009DA64E /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		24DD6CF71134B3F500162E58 /* TiTestflightModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiTestflightModule.h; path = Classes/TiTestflightModule.h; sourceTree = "<group>"; };
 		24DD6CF81134B3F500162E58 /* TiTestflightModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiTestflightModule.m; path = Classes/TiTestflightModule.m; sourceTree = "<group>"; };
 		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DB933C217D0B5A2009DA64E /* libz.dylib in Frameworks */,
 				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
 				2CE5E4B6141F855000245C50 /* libTestFlight.a in Frameworks */,
 			);
@@ -79,6 +82,7 @@
 		0867D691FE84028FC02AAC07 /* testflight */ = {
 			isa = PBXGroup;
 			children = (
+				0DB933C117D0B5A2009DA64E /* libz.dylib */,
 				2CE5E4B2141F854A00245C50 /* TestFlight.h */,
 				08FB77AEFE84172EC02AAC07 /* Classes */,
 				32C88DFF0371C24200C91783 /* Other Sources */,

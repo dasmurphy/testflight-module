@@ -38,10 +38,6 @@ For example you might use this for a username of the tester within your app.
 
 Takes one argument, a string which is the name for your checkpoint
 
-### testflight.openFeedbackView()
-
-Show the feedback dialog
-
 ### testflight.submitFeedback(feedbackString)
 
 #### Arguments
@@ -65,9 +61,7 @@ Returns the current TestFlight SDK Version which is used in the module
       testflight.takeOff('YourAppTokenHere');
    
       testflight.passCheckpoint('SomeCheckpoint');
-   
-      testflight.openFeedbackView();
-   
+      
       testflight.submitFeedback('Text from your own custom form');
 
 ## Authors
