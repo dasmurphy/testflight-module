@@ -73,6 +73,8 @@
     ENSURE_UI_THREAD(takeOff, args);
     ENSURE_ARG_COUNT(args, ([args count]>1?2:1));
 
+    //NSLog(@"[INFO] %@ takeOff",self);
+
     NSString *value = [TiUtils stringValue:[args objectAtIndex:0]];
     BOOL testing = ([args count]>1?[TiUtils boolValue: [args objectAtIndex:1]]:FALSE);
     if (testing == TRUE) {
@@ -98,13 +100,6 @@
     [TestFlight passCheckpoint:value];
 }
 
--(void)openFeedbackView:(id)args
-{
-    ENSURE_UI_THREAD_0_ARGS;
-
-    [TestFlight openFeedbackView];
-}
-
 -(void)submitFeedback:(id)args
 {
     ENSURE_UI_THREAD_1_ARG(args);
@@ -127,9 +122,13 @@
     ENSURE_UI_THREAD(log, args);
     ENSURE_ARG_COUNT(args, 2)
 
+    //NSLog(@"[INFO] %@ log",self);
+
     NSString *key = [TiUtils stringValue:[args objectAtIndex:0]];
     NSString *value = [TiUtils stringValue:[args objectAtIndex:1]];
     TFLog(@"[%@] %@",key,value);
+
+    //NSLog(@"[%@] %@",key,value);
 }
 
 -(id)sdkVersion:(id)args
