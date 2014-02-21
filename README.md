@@ -56,7 +56,8 @@ This module is only tested against the **latest** Titanium Mobile SDK's. It is n
 |1.0|1.0|1.8.0+|
 |1.1|1.0|1.8.0+|
 |1.2|1.2|2.1.4+|
-|2.0 (current)|2.0|2.1.4+ / 3.0+|
+|2.0|2.0|2.1.4+ / 3.0+|
+| 3.0 (current)|3.0|3.2.0+|
 
 - - - 
 

@@ -17,9 +17,6 @@ Ti.API.info("module is => " + testflight);
 
 testflight.takeOff("[TEAM TOKEN]");
 
-// Enable this when in Debug mode
-//testflight.setDeviceIdentifier();
-
 Ti.API.debug("Start Logging");
 
 Ti.API.info("passCheckPoint");
