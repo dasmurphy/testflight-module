@@ -76,21 +76,9 @@
     //NSLog(@"[INFO] %@ takeOff",self);
 
     NSString *value = [TiUtils stringValue:[args objectAtIndex:0]];
-    BOOL testing = ([args count]>1?[TiUtils boolValue: [args objectAtIndex:1]]:FALSE);
-    if (testing == TRUE) {
-        [TestFlight setDeviceIdentifier: [[UIDevice currentDevice] uniqueIdentifier]];
-    }
 
     [TestFlight takeOff:value];
 }
-
-/*-(void)setDeviceIdentifier:(id)args
-{
-    //ENSURE_UI_THREAD_1_ARG(args);
-    ENSURE_UI_THREAD_0_ARGS;
-
-    [TestFlight setDeviceIdentifier: [[UIDevice currentDevice] uniqueIdentifier]];
-}*/
 
 -(void)passCheckpoint:(id)args
 {    
